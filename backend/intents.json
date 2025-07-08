@@ -1,0 +1,117 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Howdy", "Hi there", "Hello there", "What's up?",
+        "Good morning", "Good afternoon", "Good evening", "Is anyone there?",
+        "Hey there", "Hi, how are you?", "Yo", "Greetings"
+      ],
+      "responses": [
+        "Hello!", "Hi there!", "Greetings!", "Hey, how can I help you?", "Good to see you!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Catch you later", "I’m leaving",
+        "See you", "Talk to you soon", "Later", "Farewell", "Take care"
+      ],
+      "responses": [
+        "Goodbye!", "See you soon!", "Have a great day!", "Take care!", "Bye! Come back anytime!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "Thank you so much", "Thanks for helping me",
+        "Much appreciated", "I appreciate it", "Awesome, thanks", "Grateful", "Thanks, buddy"
+      ],
+      "responses": [
+        "You're welcome!", "My pleasure!", "Anytime!", "No problem!", "Glad to help!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "Blah blah", "asdfgh", "I don't know what to say", "Just checking", "Random words",
+        "qwerty", "Say something", "What's this?", "Why?", "Hmm"
+      ],
+      "responses": [
+        "I'm sorry, I didn't understand that.", "Could you please rephrase?", "I'm not sure how to respond to that."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?", "Tell me the weather", "Weather today", "Is it raining?",
+        "How's the weather?", "Do I need an umbrella?", "What's the temperature?", "Forecast today?",
+        "Is it sunny?", "Is it cold today?"
+      ],
+      "responses": [
+        "It's sunny and 25°C today!", "Looks like it might rain.", "Clear skies ahead!", "It's cloudy with a chance of rain.",
+        "Expect a high of 30°C today."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny", "Do you know any jokes?",
+        "Funny please", "Can you tell a joke?", "Tell a funny story", "I need a laugh", "Make me smile", "Joke time"
+      ],
+      "responses": [
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "I would tell you a construction joke, but I’m still working on it.",
+        "Why did the computer go to therapy? It had too many bytes.",
+        "Parallel lines have so much in common. It’s a shame they’ll never meet."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?", "I need help", "Assist me", "Help me out", "I need support",
+        "What can you do?", "I need guidance", "Help", "Can you assist?", "Please help me"
+      ],
+      "responses": [
+        "Sure, I'm here to help!", "What do you need assistance with?", "Of course! Let me know what you need.",
+        "I'm happy to help. Please tell me what you need."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint", "This is not working", "I'm not happy", "This is bad service",
+        "Something went wrong", "I want to report an issue", "This is terrible", "It’s not loading",
+        "I don’t like this", "Fix this issue"
+      ],
+      "responses": [
+        "I'm really sorry to hear that. Can you tell me more about the issue?",
+        "I apologize for the inconvenience. Let me assist you.",
+        "Thank you for reporting. We'll look into it immediately.",
+        "I'm here to help. Please share the details."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?", "Order status", "Track my order", "When will my order arrive?",
+        "I want to check my delivery", "Is my order shipped?", "Order not delivered", "Delivery status?",
+        "What’s the ETA?", "Has my package been shipped?"
+      ],
+      "responses": [
+        "Can you please provide your order ID?", "I'll check your order status right away!",
+        "Let me find your order details. Can you confirm your order number?",
+        "Please share your order ID to proceed."
+      ],
+      "context": [""]
+    }
+  ]
+}
